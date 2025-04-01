@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+@font-face{
+    src:url("points.ttf");
+    font-family:point;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width:575px;
+    height:340px;
+    background: #1B244A;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header{
+    margin-top: 68px;
+    width:155px;
+    height: 36px;
+    /* background-color: black; */
+    text-align: center;
+    
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    
+    color: #EEEEEE;
+    
+    margin-bottom: 21px;
+
+
+}
+
+
+.points{
+    width:155px;
+    height:120px;
+    background-color:#080001;
+    border-radius: 6px;
+}
+
+.point{
+    width:117px;
+    height:120px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    
+    font-weight: 400;
+    font-size: 90px; 
+    /*font size is creating margin issue, between home and point. removing it will fix the issue, write now i wrote margin-top:0 to fix it  */
+    line-height: 126.67px;
+    color:#F94F6D;
+    font-family: point;
+}
+
+
+.adder{
+    width:155px;
+    height:45px;
+
+    
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: transparent;
+    width:45px;
+    height:45px;
+    text-align: center;
+    border:1px solid #9AABD8;
+    
+    
+    font-family: point;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.81px;
+    
+    color: #9AABD8;
+    border-radius: 6px;
+
+}
+
+
+#reset{
+        width:575px;
+    height:50px;
+    background: #1B244A;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#reset-button{
+    width:200px;
+
+    display: block;
+    margin:auto;
+    background-color: #F94F6D;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    border:2px solid #F94F6D;
+    border-radius: 15px;
+    
+    color: #1B244A;
+    
+    
+}
